@@ -47,13 +47,13 @@ def crack(koko,koko2):
     renkler = ["Green","Yellow","Blue","Red","White"]
     renk = random.choice(renkler)
     if renk == "Green":
-        blobber = Fore.WHITE
+        blobber = Fore.GREEN
     elif renk == "Yellow":
-        blobber = Fore.WHITE
+        blobber = Fore.YELLOW
     elif renk == "Blue":
-        blobber = Fore.WHITE
+        blobber = Fore.BLUE
     elif renk == "Red":
-        blobber = Fore.WHITE
+        blobber = Fore.RED
     elif renk == "White":
         blobber = Fore.WHITE
     if 'PROXIES="YES"' in proxiesc:
