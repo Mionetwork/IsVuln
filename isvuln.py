@@ -92,7 +92,7 @@ def crack(koko,koko2):
 def başlatıcı():
     num=int('0')
     User,Pass=combo()
-    threadsnum = sys.argv[2]
+    threadsnum = 100
     while 1:
         if threading.active_count() < int(threadsnum):
                 if len(User) > num:
