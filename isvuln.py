@@ -48,13 +48,13 @@ def crack(koko,koko2):
     renk = random.choice(renkler)
     if renk == "Green":
         blobber = Fore.WHITE
-    if renk == "Yellow":
+    elif renk == "Yellow":
         blobber = Fore.WHITE
-    if renk == "Blue":
+    elif renk == "Blue":
         blobber = Fore.WHITE
-    if renk == "Red":
+    elif renk == "Red":
         blobber = Fore.WHITE
-    if renk == "White":
+    elif renk == "White":
         blobber = Fore.WHITE
     if 'PROXIES="YES"' in proxiesc:
         findprxy = re.findall('PROXY="(.*?)"',proxiesc)
